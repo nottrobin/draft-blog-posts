@@ -1,0 +1,22 @@
+<h1 id="moving-our-sites-to-https">Moving our sites to HTTPS</h1>
+<p>We've been making an effort to secure all our websites with <a href="https://www.eff.org/pages/https" title="The EFF: About HTTPS">HTTPS</a>. While some Canonical sites have enforced HTTPS for a while (e.g.: <a href="https://landscape.canonical.com/" title="Landscape: The leading management tool to deploy, monitor and manage your Ubuntu servers">landscape.canonical.com</a>, <a href="https://jujucharms.com/" title="Juju is an open source, application and service modelling tool from Ubuntu">jujucharms.com</a>, <a href="https://launchpad.net/" title="Launchpad: A platform for developing and maintaining open-source software">launchpad.net</a>), it's been missing from our other sites until now.</p>
+<h2 id="why-https">Why HTTPS?</h2>
+<p>The <a href="https://encryptallthethings.net/" title="EncryptAllTheThings: Security Starts Here">HTTPS movement</a> has been building for years to help secure internet users against <a href="https://en.wikipedia.org/wiki/Black_hat" title="Wikipedia: Black-hat hackers">black-hat hackers</a> and spies. The movement became more urgent after <a href="https://en.wikipedia.org/wiki/Edward_Snowden#Revelations" title="Wikipedia: Edward Snowden revelations">Edward Snowden revealed</a> significant efforts by government agencies to <a href="https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)" title="Wikipedia: Global surveillance disclosures">spy on the world population</a>.</p>
+<p><a href="https://www.eff.org" title="The Electronic Fronteer Foundation">The EFF</a> have helped create two projects: <a href="https://letsencrypt.org" title="LetsEncrypt: A free, automated, and open Certificate Authority">LetsEncrypt</a> - which massively simplifies the free installation of HTTPS certificates; and <a href="https://www.eff.org/https-everywhere" title="The EFF: HTTPS Everywhere - a Firefox, Chrome, and Opera extension that encrypts your communications with supporting websites">HTTPS Everywhere</a> - a browser plugin to help you use HTTPS whenever it's available. The advent of <a href="https://www.eff.org/pages/https" title="The EFF: About HTTPS">HTTP/2</a> has <a href="https://istlsfastyet.com/" title="IsTLSFastYet?">helped negate performance concerns</a> when moving to HTTPS.</p>
+<p>Google have also made efforts to encourage websites to enable HTTPS: First announcing in 2014 that they would <a href="https://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html" title="Google: HTTPS as a ranking signal">consider HTTPS support in their search ranking algorithm</a>; and last year, that <a href="https://developers.google.com/web/updates/2016/10/avoid-not-secure-warn" title="Google: Not secure warnings in Google Chrome">Google Chrome would start visually warning users</a> of &quot;insecure&quot; (non-HTTPS) websites.</p>
+<h2 id="our-sites">Our sites</h2>
+<p>We secured <a href="https://www.ubuntu.com" class="uri" title="Ubuntu: An open source operating system.">https://www.ubuntu.com</a> in October of last year, and have since added 10 more sites. We now enforce HTTPS on:</p>
+<ul>
+<li><a href="https://www.canonical.com" class="uri">https://www.canonical.com</a></li>
+<li><a href="https://insights.ubuntu.com" class="uri">https://insights.ubuntu.com</a></li>
+<li><a href="https://jp.ubuntu.com" class="uri">https://jp.ubuntu.com</a></li>
+<li><a href="https://tutorials.ubuntu.com" class="uri">https://tutorials.ubuntu.com</a></li>
+<li><a href="https://docs.ubuntu.com/core" class="uri">https://docs.ubuntu.com/core</a></li>
+<li><a href="https://maas.io" class="uri">https://maas.io</a></li>
+<li><a href="https://snapcraft.io" class="uri">https://snapcraft.io</a></li>
+<li><a href="https://build.snapcraft.io" class="uri">https://build.snapcraft.io</a></li>
+<li><a href="https://cloud-init.io" class="uri">https://cloud-init.io</a></li>
+<li><a href="https://assets.ubuntu.com/" class="uri">https://assets.ubuntu.com/</a></li>
+</ul>
+<p>We hope to enable HTTPS on our other sites in the coming months.</p>
+<p>Enabling HTTPS on large websites within complex organisations can be challenging. I hope to write more about this in a follow-up post.</p>
