@@ -1,6 +1,7 @@
 # Moving our sites to HTTPS
 
-We've been making an effort to secure all our websites with [HTTPS][https]. While some Canonical sites have enforced HTTPS for a while (e.g.: [landscape.canonical.com][landscape], [jujucharms.com][charms], [launchpad.net][launchpad]), it's been missing from our other sites until now.
+We've been making an effort to secure all our websites with [HTTPS][https].
+While some Canonical sites have enforced HTTPS for a while (e.g.: [landscape.canonical.com][landscape], [jujucharms.com][charms], [launchpad.net][launchpad]), it's been missing from our other sites until now.
 
 ## Why HTTPS?
 
